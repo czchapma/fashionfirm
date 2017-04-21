@@ -1,0 +1,328 @@
+@font-face {
+    font-family: BandOfReality;
+    src: url('../font/bandofreality.ttf');
+}
+
+#content {
+	padding-top: 51px;
+}
+
+.header {
+	margin: 30px auto;
+	display: block;
+}
+
+h1 {
+	color: #4B0F61;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 70px;
+	padding-top: 20px;
+}
+
+section p {
+	font-size: 25px;
+}
+
+section ul {
+	font-size: 25px;
+}
+
+.title-bar {
+	background-color: #40999D;
+	width: 100%;
+	padding: 3px 15px;
+	color: white;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+.subtitle {
+	text-align: center;
+	font-size: 40px;
+}
+
+.home_text {
+	font-size: 30px;
+}
+
+.panel-default > .panel-heading {
+	background-color: #40999D;
+}
+
+.img-container img {
+	width: 22%;
+	display: inline;
+	padding: 10px;
+}
+
+body {
+	background-color: white;
+}
+
+.navbar a {
+  color: black;
+}
+
+.navbar a:hover {
+  color: black;
+}
+
+.navbar a:focus {
+  color: black;
+}
+
+.col-md-4 img{
+	margin: -15px;
+	width: 100%;
+}
+
+.caption {
+	position: relative;
+	left: 0;
+	top: 33%;
+	width: 100%;
+	text-align: center;
+	color: black;
+}
+
+.caption span {
+	border-color: red;
+	border-width: 10px;
+	font-size: 30px;
+	text-transform: uppercase;
+	opacity: 1;
+}
+
+#paralax-1 {
+	background-image: url("../images/banner.jpg");
+	height: 250px;
+}
+.paralax {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: .5;
+}
+
+.services-text {
+	height: 300px;
+	line-height: 300px;
+}
+
+.cursive {
+	font-family: 'Snell Roundhand';
+	font-size: 40px;
+}
+
+.client-header {
+		display: block;
+		text-align: center;
+		overflow: hidden;
+		white-space: nowrap;
+		width: 200px;
+}
+
+.client-header > span {
+		position: relative;
+		display: inline-block;
+		font-size: 20px;
+		text-transform: uppercase;
+}
+textarea {
+	width: 100%;
+}
+
+.rounded-circle {
+	border-radius: 50%;
+	max-width: 200px;
+}
+.client-header > span:before,
+.client-header > span:after {
+		content: "";
+		position: absolute;
+		top: 50%;
+		width: 9999px;
+		height: 3px;
+		background: yellow;
+}
+
+
+
+.client-header > span:before {
+		right: 100%;
+		margin-right: 15px;
+}
+
+.client-header > span:after {
+		left: 100%;
+		margin-left: 15px;
+}
+
+
+.services-text p {
+	vertical-align: middle;
+	text-align: center;
+}
+
+.nav.navbar-nav{
+   float:none;
+  display:inline-flex;
+
+}
+
+/* CSS used here will be applied after bootstrap.css */
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+@media(min-width:768px) {
+    .navbar>.container .navbar-brand{
+        margin-left: 0px;
+    }
+}
+
+.collapse {
+    font-size: 20px;
+/*    font-size: 2.5vw;
+*/}
+
+
+#stats > img {
+	margin: auto;
+}
+
+#mission {
+	margin-top: 50px;
+}
+
+#definitions .thumbnail {
+	background-color: rgb(73,177,197);
+	color: rgb(41,99,108);
+	text-align: center;
+}
+
+
+#projects iframe {
+	margin: auto;
+	display: block;
+}
+
+.navbar-right img {
+	margin-top: 8px;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transiti
+        on: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+#logo {
+	width: 100px;
+	margin-left: 100px;
+	margin-top: -25px;
+}
+
+.navbar-nav li a {
+ text-transform: uppercase;
+ font-family: 'BandOfReality';
+}
+
+.section_page {
+	padding: 50px;
+	height: 100%;
+}
+
+.padded-top {
+	padding-top: 30px;
+}
+
+footer {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+#logo_header {
+	position: absolute;
+
+}
+
+#donate button {
+	display: block;
+	margin: auto;
+}
+
+#donate img {
+	display: block;
+	margin: auto;
+	margin-top: 15px;
+}
+
+#myCarousel {
+	margin-top:10px;
+	margin-bottom:10px;
+
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+		padding-top: 9px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
