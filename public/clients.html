@@ -35,118 +35,93 @@
   </head>
   <body>
 
-<header role="banner">
-<nav id="navbar-primary" class="navbar" role="navigation">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-primary-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html"><img class="img-responsive" id="logo" src="images/logo.png" alt="The Fashion Firm"></a>
-    </div>
-    <div class="collapse navbar-collapse navbar-center">
-    	<div class="menu text-center">
-	      <ul class="nav navbar-nav">
-	        <li><a href="firm.html">The Firm</a></li>
-	        <li>
-            <div class="dropdown">
-            <a href="services.html">The Services</a>
-            <div class="dropdown-content dropdown-menu">
-              <a href="#">BRAND DEVELOPMENT</a>
-              <a href="#">CREATIVE DIRECTION</a>
-              <a href="#">EVENT PLANNING</a>
+    <header role="banner">
+      <nav id="navbar-primary" class="navbar" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-primary-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img class="img-responsive" id="logo" src="images/logo.png" alt="The Fashion Firm"></a>
+          </div>
+          <div class="collapse navbar-collapse navbar-center">
+          	<div class="menu text-center">
+      	      <ul class="nav navbar-nav">
+      	        <li><a href="firm.html">The Firm</a></li>
+      	        <li>
+                  <div class="dropdown">
+                  <a href="services.html">The Services</a>
+                  <div class="dropdown-content dropdown-menu">
+                    <a href="#">BRAND DEVELOPMENT</a>
+                    <a href="#">CREATIVE DIRECTION</a>
+                    <a href="#">EVENT PLANNING</a>
+                  </div>
+                </div>
+                </li>
+      	        <li><a href="clients.html">The Clientele</a></li>
+      	        <li><a href="consultant.html">The Consultant</a></li>
+      	        <li><a href="http://blogginwithbjones.tumblr.com">The Blog</a></li>
+      	      </ul>
+      	    </div>
+          </div><!-- /.navbar-collapse -->
+
+      </nav>
+    </header><!-- header role="banner" -->
+
+    <div class="container" id="slider">
+      <div class="client-header">
+          <span>Past</span>
+      </div>
+      <p><em>An inside look at some of our work</em></p>
+
+      <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#bs-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#bs-carousel" data-slide-to="1"></li>
+          <li data-target="#bs-carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item slides active">
+            <div class="slide-1"></div>
+            <div class="hero">
+              <hgroup>
+                  <h1>We are creative</h1>
+                  <h3>Get start your next awesome project</h3>
+              </hgroup>
+              <button class="btn btn-hero btn-lg" role="button">See all features</button>
             </div>
           </div>
-          </li>
-	        <li><a href="clients.html">The Clientele</a></li>
-	        <li><a href="consultant.html">The Consultant</a></li>
-	        <li><a href="http://blogginwithbjones.tumblr.com">The Blog</a></li>
-	      </ul>
-	    </div>
-    </div><!-- /.navbar-collapse -->
+          <div class="item slides">
+            <div class="slide-2"></div>
+            <div class="hero">
+              <hgroup>
+                  <h1>We are smart</h1>
+                  <h3>Get start your next awesome project</h3>
+              </hgroup>
+              <button class="btn btn-hero btn-lg" role="button">See all features</button>
+            </div>
+          </div>
+          <div class="item slides">
+            <div class="slide-3"></div>
+            <div class="hero">
+              <hgroup>
+                  <h1>We are amazing</h1>
+                  <h3>Get start your next awesome project</h3>
+              </hgroup>
+              <button class="btn btn-hero btn-lg" role="button">See all features</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
-</nav>
-</header><!-- header role="banner" -->
+    <div class="client-header">
+        <span>Positive</span>
+    </div>
 
-<div class="container" id="slider">
-  <div class="client-header">
-        <span>
-          Past
-        </span>
-    </div>
-    <p><em>An inside look at some of our work</em></p>
-
-    <!-- Wrapper for slides -->
-<div class="carousel-inner">
-  <div class="item slides active">
-    <div class="slide-1">
-    <img src="images/banner.jpg"></div>
-  </div>
-  <div class="item slides">
-    <div class="slide-2"><img src="images/banner.jpg"></div>
-    <div class="hero">
-      <hgroup>
-          <h1>We are smart</h1>
-          <h3>Get start your next awesome project</h3>
-      </hgroup>
-      <button class="btn btn-hero btn-lg" role="button">See all features</button>
-    </div>
-  </div>
-  <div class="item slides">
-    <div class="slide-3"></div>
-    <div class="hero">
-      <hgroup>
-          <h1>We are amazing</h1>
-          <h3>Get start your next awesome project</h3>
-      </hgroup>
-      <button class="btn btn-hero btn-lg" role="button">See all features</button>
-    </div>
-  </div>
-</div>
-
-<div class="carousel-inner">
-  <div class="item slides active">
-    <div class="slide-1"></div>
-    <div class="hero">
-      <hgroup>
-          <h1>We are creative</h1>
-          <h3>Get start your next awesome project</h3>
-      </hgroup>
-      <button class="btn btn-hero btn-lg" role="button">See all features</button>
-    </div>
-  </div>
-  <div class="item slides">
-    <div class="slide-2"></div>
-    <div class="hero">
-      <hgroup>
-          <h1>We are smart</h1>
-          <h3>Get start your next awesome project</h3>
-      </hgroup>
-      <button class="btn btn-hero btn-lg" role="button">See all features</button>
-    </div>
-  </div>
-  <div class="item slides">
-    <div class="slide-3"></div>
-    <div class="hero">
-      <hgroup>
-          <h1>We are amazing</h1>
-          <h3>Get start your next awesome project</h3>
-      </hgroup>
-      <button class="btn btn-hero btn-lg" role="button">See all features</button>
-    </div>
-  </div>
-</div>
-
-<div class="client-header">
-      <span>
-        Positive
-      </span>
-  </div>
-
-  <p><em>Real Feedback From Real People On Real And Relevant Ideas And Projects.</em></p>
+    <p><em>Real Feedback From Real People On Real And Relevant Ideas And Projects.</em></p>
 
   <!--Testimonials-->
   <div class="row text-center">
@@ -284,8 +259,8 @@
 
 
 </div>
-<footer>
-  &trade;	2017 THE FASHION FIRM, LLC. ALL RIGHTS Reserved.
-</footer>
+    <footer>
+        &trade;	2017 THE FASHION FIRM, LLC. ALL RIGHTS Reserved.
+    </footer>
   </body>
 </html>
