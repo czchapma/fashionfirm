@@ -313,12 +313,20 @@ footer {
   margin-top: 25%;
 }
 
-.padding-left-none {
-  padding-left: none;
+.no-padding-right {
+  padding-right: 4px;
 }
 
-.padding-right-none {
-  padding-right: none;
+.no-padding-left {
+  padding-left: 4px;
+}
+
+.more-padding-right {
+  padding-right: 40px;
+}
+
+.less-left-margin {
+  margin-left: -20px;
 }
 /*liao end*/
 
