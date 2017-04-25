@@ -304,6 +304,22 @@ footer {
   text-align: center;
   transform: translate(-50%, 0);
 }
+
+.top-buffer {
+  margin-top: 25px;
+}
+
+.more-top-buffer {
+  margin-top: 25%;
+}
+
+.padding-left-none {
+  padding-left: none;
+}
+
+.padding-right-none {
+  padding-right: none;
+}
 /*liao end*/
 
 /* Dropdown Content (Hidden by Default) */
