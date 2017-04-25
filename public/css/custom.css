@@ -328,6 +328,10 @@ footer {
 .less-left-margin {
   margin-left: -20px;
 }
+
+.vertical-center {
+  vertical-align: middle;
+}
 /*liao end*/
 
 /* Dropdown Content (Hidden by Default) */
