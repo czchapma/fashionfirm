@@ -132,6 +132,7 @@ textarea {
 @media(min-width:768px) {
     .navbar>.container .navbar-brand{
         margin-left: 0px;
+        padding-top: 0;
     }
 }
 
@@ -156,15 +157,17 @@ textarea {
 
 #logo {
 	width: 100px;
+  /*height: 100%*/
 	margin-left: 100px;
-	margin-top: -25px;
+	/*margin-top: -25px;*/
 }
 
 @media (max-width: 767px) {
   #logo {
+    /*height: 50px;*/
   	width: 40px;
-  	margin-top: 0px;
-  	margin-bottom: 0px;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
   	margin-left: 20px;
   }
 }
