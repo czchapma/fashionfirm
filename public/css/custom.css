@@ -3,15 +3,16 @@
     src: url('../font/bandofreality.ttf');
 }
 
-#content {
+/*#content {
 	padding-top: 51px;
-}
+}*/
 
-.header {
+/*header {
 	margin: 30px auto;
 	display: block;
-}
+}*/
 
+/*in clients.html*/
 h1 {
 	color: #4B0F61;
 	text-align: center;
@@ -20,41 +21,41 @@ h1 {
 	padding-top: 20px;
 }
 
-section p {
+/*section p {
 	font-size: 25px;
 }
 
 section ul {
 	font-size: 25px;
-}
+}*/
 
-.title-bar {
+/*.title-bar {
 	background-color: #40999D;
 	width: 100%;
 	padding: 3px 15px;
 	color: white;
 	margin-top: 25px;
 	margin-bottom: 20px;
-}
+}*/
 
-.subtitle {
+/*.subtitle {
 	text-align: center;
 	font-size: 40px;
-}
+}*/
 
-.home_text {
+/*.home_text {
 	font-size: 30px;
-}
+}*/
 
-.panel-default > .panel-heading {
+/*.panel-default > .panel-heading {
 	background-color: #40999D;
-}
+}*/
 
-.img-container img {
+/*.img-container img {
 	width: 22%;
 	display: inline;
 	padding: 10px;
-}
+}*/
 
 body {
 	background-color: white;
@@ -77,6 +78,7 @@ body {
 	width: 100%;
 }*/
 
+/*in services.html*/
 .caption {
 	position: relative;
 	left: 0;
@@ -98,6 +100,7 @@ body {
 	background-image: url("../images/banner.jpg");
 	height: 250px;
 }
+
 .paralax {
 	background-attachment: fixed;
 	background-position: center;
@@ -111,11 +114,17 @@ body {
 	line-height: 300px;
 }
 
+.services-text p {
+  vertical-align: middle;
+  text-align: center;
+}
+
 .cursive {
 	font-family: 'Snell Roundhand';
 	font-size: 40px;
 }
 
+/*in clients.html*/
 .client-header {
 		display: block;
 		text-align: center;
@@ -130,6 +139,7 @@ body {
 		font-size: 20px;
 		text-transform: uppercase;
 }
+
 textarea {
 	width: 100%;
 }
@@ -138,6 +148,7 @@ textarea {
 	border-radius: 50%;
 	max-width: 200px;
 }
+
 .client-header > span:before,
 .client-header > span:after {
 		content: "";
@@ -147,8 +158,6 @@ textarea {
 		height: 3px;
 		background: yellow;
 }
-
-
 
 .client-header > span:before {
 		right: 100%;
@@ -160,23 +169,23 @@ textarea {
 		margin-left: 15px;
 }
 
-
-.services-text p {
-	vertical-align: middle;
-	text-align: center;
-}
-
+/*navbar*/
 .nav.navbar-nav{
    float:none;
 }
 
+.navbar-nav li a {
+ text-transform: uppercase;
+ font-family: 'BandOfReality';
+}
+
 /* CSS used here will be applied after bootstrap.css */
-.navbar-fixed-top .nav {
+/*.navbar-fixed-top .nav {
     padding: 15px 0;
 }
 .navbar-fixed-top .navbar-brand {
     padding: 0 15px;
-}
+}*/
 
 @media(min-width:768px) {
     .navbar>.container .navbar-brand{
@@ -186,33 +195,34 @@ textarea {
 
 .collapse {
     font-size: 20px;
+    text-align: center
 /*    font-size: 2.5vw;
 */}
 
 
-#stats > img {
+/*#stats > img {
 	margin: auto;
-}
+}*/
 
-#mission {
+/*#mission {
 	margin-top: 50px;
-}
+}*/
 
-#definitions .thumbnail {
+/*#definitions .thumbnail {
 	background-color: rgb(73,177,197);
 	color: rgb(41,99,108);
 	text-align: center;
-}
+}*/
 
 
-#projects iframe {
+/*#projects iframe {
 	margin: auto;
 	display: block;
-}
+}*/
 
-.navbar-right img {
+/*.navbar-right img {
 	margin-top: 8px;
-}
+}*/
 
 @media(min-width:767px) {
     .navbar {
@@ -243,15 +253,10 @@ textarea {
 }
 }
 
-.navbar-nav li a {
- text-transform: uppercase;
- font-family: 'BandOfReality';
-}
-
-.section_page {
+/*.section_page {
 	padding: 50px;
 	height: 100%;
-}
+}*/
 
 .padded-top {
 	padding-top: 30px;
@@ -263,12 +268,12 @@ footer {
 	padding-bottom: 20px;
 }
 
-#logo_header {
+/*#logo_header {
 	position: absolute;
 
-}
+}*/
 
-#donate button {
+/*#donate button {
 	display: block;
 	margin: auto;
 }
@@ -277,30 +282,12 @@ footer {
 	display: block;
 	margin: auto;
 	margin-top: 15px;
-}
+}*/
 
 #myCarousel {
 	margin-top:10px;
 	margin-bottom:10px;
 
-}
-
-
-/* Dropdown Button */
-.dropbtn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
-		padding-top: 9px;
 }
 
 /*liao begin*/
@@ -336,14 +323,32 @@ footer {
   margin-left: -20px;
 }
 
-.vertical-center {
-  vertical-align: middle;
-}
-
 .navbar-default {
   background-color: white;
 }
+
+.menu-item {
+  color: black;
+}
 /*liao end*/
+
+/*do not delete until after services options complete*/
+/* Dropdown Button */
+/*.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}*/
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+		padding-top: 9px;
+}
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
