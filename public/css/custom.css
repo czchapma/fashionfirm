@@ -332,6 +332,10 @@ footer {
 .vertical-center {
   vertical-align: middle;
 }
+
+.navbar-default {
+  background-color: white;
+}
 /*liao end*/
 
 /* Dropdown Content (Hidden by Default) */
