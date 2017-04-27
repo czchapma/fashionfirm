@@ -3,15 +3,6 @@
     src: url('../font/bandofreality.ttf');
 }
 
-/*#content {
-	padding-top: 51px;
-}*/
-
-/*header {
-	margin: 30px auto;
-	display: block;
-}*/
-
 /*in clients.html*/
 h1 {
 	color: #4B0F61;
@@ -20,42 +11,6 @@ h1 {
 	font-size: 70px;
 	padding-top: 20px;
 }
-
-/*section p {
-	font-size: 25px;
-}
-
-section ul {
-	font-size: 25px;
-}*/
-
-/*.title-bar {
-	background-color: #40999D;
-	width: 100%;
-	padding: 3px 15px;
-	color: white;
-	margin-top: 25px;
-	margin-bottom: 20px;
-}*/
-
-/*.subtitle {
-	text-align: center;
-	font-size: 40px;
-}*/
-
-/*.home_text {
-	font-size: 30px;
-}*/
-
-/*.panel-default > .panel-heading {
-	background-color: #40999D;
-}*/
-
-/*.img-container img {
-	width: 22%;
-	display: inline;
-	padding: 10px;
-}*/
 
 body {
 	background-color: white;
@@ -72,11 +27,6 @@ body {
 .navbar a:focus {
   color: black;
 }
-
-/*.col-md-4 img{
-	margin: -15px;
-	width: 100%;
-}*/
 
 /*in services.html*/
 .caption {
@@ -179,14 +129,6 @@ textarea {
  font-family: 'BandOfReality';
 }
 
-/* CSS used here will be applied after bootstrap.css */
-/*.navbar-fixed-top .nav {
-    padding: 15px 0;
-}
-.navbar-fixed-top .navbar-brand {
-    padding: 0 15px;
-}*/
-
 @media(min-width:768px) {
     .navbar>.container .navbar-brand{
         margin-left: 0px;
@@ -196,33 +138,7 @@ textarea {
 .collapse {
     font-size: 20px;
     text-align: center
-/*    font-size: 2.5vw;
-*/}
-
-
-/*#stats > img {
-	margin: auto;
-}*/
-
-/*#mission {
-	margin-top: 50px;
-}*/
-
-/*#definitions .thumbnail {
-	background-color: rgb(73,177,197);
-	color: rgb(41,99,108);
-	text-align: center;
-}*/
-
-
-/*#projects iframe {
-	margin: auto;
-	display: block;
-}*/
-
-/*.navbar-right img {
-	margin-top: 8px;
-}*/
+}
 
 @media(min-width:767px) {
     .navbar {
@@ -245,18 +161,13 @@ textarea {
 }
 
 @media (max-width: 767px) {
-#logo {
-	width: 40px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	margin-left: 20px;
+  #logo {
+  	width: 40px;
+  	margin-top: 0px;
+  	margin-bottom: 0px;
+  	margin-left: 20px;
+  }
 }
-}
-
-/*.section_page {
-	padding: 50px;
-	height: 100%;
-}*/
 
 .padded-top {
 	padding-top: 30px;
@@ -267,22 +178,6 @@ footer {
 	padding-top: 50px;
 	padding-bottom: 20px;
 }
-
-/*#logo_header {
-	position: absolute;
-
-}*/
-
-/*#donate button {
-	display: block;
-	margin: auto;
-}
-
-#donate img {
-	display: block;
-	margin: auto;
-	margin-top: 15px;
-}*/
 
 #myCarousel {
 	margin-top:10px;
