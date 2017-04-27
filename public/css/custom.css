@@ -226,6 +226,18 @@ footer {
 .menu-item {
   color: black;
 }
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
 /*liao end*/
 
 /*do not delete until after services options complete*/
