@@ -168,8 +168,6 @@ textarea {
 
 .nav.navbar-nav{
    float:none;
-  display:inline-flex;
-
 }
 
 /* CSS used here will be applied after bootstrap.css */
@@ -234,6 +232,15 @@ textarea {
 	width: 100px;
 	margin-left: 100px;
 	margin-top: -25px;
+}
+
+@media (max-width: 767px) {
+#logo {
+	width: 40px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
 }
 
 .navbar-nav li a {
