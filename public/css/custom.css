@@ -120,20 +120,9 @@ textarea {
   color: black;
 }
 
-/*.nav.navbar-nav{
-   float:none;
-}*/
-
 .navbar-nav li a {
  text-transform: uppercase;
  font-family: 'BandOfReality';
-}
-
-@media(min-width:768px) {
-    .navbar>.container .navbar-brand{
-        margin-left: 0px;
-        padding-top: 0;
-    }
 }
 
 .collapse {
@@ -157,14 +146,11 @@ textarea {
 
 #logo {
 	width: 100px;
-  /*height: 100%*/
 	margin-left: 100px;
-	/*margin-top: -25px;*/
 }
 
 @media (max-width: 767px) {
   #logo {
-    /*height: 50px;*/
   	width: 40px;
   	margin-top: 10px;
   	margin-bottom: 10px;
