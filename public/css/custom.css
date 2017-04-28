@@ -170,6 +170,10 @@ footer {
 }
 
 /*liao begin*/
+b {
+    color: black;
+}
+
 .dropdown-menu {
   top: 2em;
   left: 50%;
