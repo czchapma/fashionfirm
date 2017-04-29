@@ -137,6 +137,17 @@ textarea {
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
+
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+        margin: 30px;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
 }
 
 #logo {
@@ -190,38 +201,21 @@ b {
   margin-top: 25%;
 }
 
-.no-padding-right {
-  padding-right: 4px;
-}
-
-.no-padding-left {
-  padding-left: 4px;
-}
-
 .more-padding-right {
   padding-right: 40px;
 }
 
-.less-left-margin {
-  margin-left: -20px;
+.form-group div {
+  padding: 2px 5px;
 }
+
+/*.less-left-margin {
+  margin-left: -20px;
+}*/
 
 .navbar-default {
   background-color: white;
   border-style: none;
-}
-
-@media (min-width: 768px) {
-    .navbar .navbar-nav {
-        display: inline-block;
-        float: none;
-        vertical-align: top;
-        margin: 30px;
-    }
-
-    .navbar .navbar-collapse {
-        text-align: center;
-    }
 }
 /*liao end*/
 
