@@ -211,54 +211,60 @@
     </div>
     <p><em>Potential Partnership? Let’s Find Out. Tell Us More About You, Your Needs, and Your Ideas!</p></em>
 
-<div class="row top-buffer">
-  <div class="col-xs-12 col-md-4 more-padding-right">
-    <p class="more-top-buffer"><em>If You Would Prefer To Discuss In Person Or Over The Phone, Please Include The Necessary Details In Your Message And I Will Get Back To You As Soon As Possible.
-    </em></p>
-  </div>
-
-  <div class="col-md-6">
-    <form>
-      <div class="form-group row">
-        <div class="col-xs-12 col-md-6">
-          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="First Name">
-        </div>
-        <div class="col-xs-12 col-md-6">
-          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Last Name">
-        </div>
-      </div>
-      <div class="form-group row">
-        <div class="col-xs-12 col-md-6">
-          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Organization">
-        </div>
-        <div class="col-xs-12 col-md-6">
-          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Title">
-        </div>
-      </div>
-      <div class="form-group row">
-        <div class="col-xs-12 col-md-6">
-          <input type="email" class="form-control" id="formGroupExampleInput2" placeholder="Email">
-        </div>
-        <div class="col-xs-12 col-md-6">
-          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Social Media">
-        </div>
+    <div class="row top-buffer">
+      <div class="col-xs-12 col-md-4 more-padding-right">
+        <p class="more-top-buffer"><em>If You Would Prefer To Discuss In Person Or Over The Phone, Please Include The Necessary Details In Your Message And I Will Get Back To You As Soon As Possible.
+        </em></p>
       </div>
 
-      <div class="form-group row">
-        <div class="col-md-12">
-          <textarea class="form-control" rows="8" placeholder="Tell us about your project"></textarea>
-        </div>
+      <div class="col-md-6">
+        <form id="gform"
+              method="POST"
+              action="https://script.google.com/macros/s/AKfycbz-yGx0EQZ0q26ayUQg4MI3xzDPK137RR7HCTpDHbfVfMGo82-n/exec">
+          <div class="form-group row">
+            <div class="col-xs-12 col-md-6">
+              <input type="text" class="form-control" name="firstname" placeholder="First Name">
+            </div>
+            <div class="col-xs-12 col-md-6">
+              <input type="text" class="form-control" name="lastname" placeholder="Last Name">
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-xs-12 col-md-6">
+              <input type="text" class="form-control" name="organization" placeholder="Organization">
+            </div>
+            <div class="col-xs-12 col-md-6">
+              <input type="text" class="form-control" name="title" placeholder="Title">
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-xs-12 col-md-6">
+              <input type="email" class="form-control"  name="email" placeholder="Email">
+            </div>
+            <div class="col-xs-12 col-md-6">
+              <input type="text" class="form-control" name="social-media" placeholder="Social Media">
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <div class="col-md-12">
+              <textarea class="form-control" rows="8" name="project-description" placeholder="Tell us about your project"></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary center-block">Submit</button>
+        </form>
+
       </div>
-      <button type="submit" class="btn btn-primary center-block">Submit</button>
-    </form>
-
-  </div>
-</div>
+    </div>
 
 
-</div>
+    </div>
     <footer>
         &trade;	2017 THE FASHION FIRM, LLC. ALL RIGHTS Reserved.
     </footer>
+    <!-- <script data-cfasync="false"
+            type="text/javascript"
+            src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script> -->
+
   </body>
 </html>
