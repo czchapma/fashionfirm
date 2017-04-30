@@ -150,6 +150,12 @@ textarea {
     }
 }
 
+@media(min-width:992px) {
+  .more-top-buffer {
+    margin-top: 25%;
+  }
+}
+
 #logo {
 	width: 100px;
 	margin-left: 100px;
@@ -197,10 +203,6 @@ b {
   margin-top: 25px;
 }
 
-.more-top-buffer {
-  margin-top: 25%;
-}
-
 .more-padding-right {
   padding-right: 40px;
 }
@@ -208,10 +210,6 @@ b {
 .form-group div {
   padding: 2px 5px;
 }
-
-/*.less-left-margin {
-  margin-left: -20px;
-}*/
 
 .navbar-default {
   background-color: white;
