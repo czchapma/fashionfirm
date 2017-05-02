@@ -60,6 +60,7 @@ body {
 .cursive {
 	font-family: 'Snell Roundhand';
 	font-size: 40px;
+  display: block;
 }
 
 /*in clients.html*/
